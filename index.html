@@ -9,77 +9,113 @@
 </head>
 <body>
     <div id="container">
+        <!--mon header-->
         <div>
-            <img src="img/logo.png" alt="logo">
+            <img  id=logo src="img/logo.png" alt="logo">
+            <!--font en haut à droite-->
+            <div id="topRight">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </div>
+        <div id="menu">
+            Vous êtes commerçants de la communauté de commune de Fourmies ?
+            Vous désirez avoir votre propre site internet mais vous n'avez pas la motivation,
+            les moyens ou le temps de vous lancez seul dans l'aventure ?
+            Les élèves de l'EN réalise gratuitement un site personnalisé pour votre commerce.
+            Remplissez notre formulaire d'inscription, nous vous aiderons avec joie dans votre projet.
+            A bientôt sur notre plateforme.
         </div>
 
-        <div class="centre">
-            <span>Solution numérique pour soutenir les commerçants locaux!</span>
-        </div>
-        <div class="centre">
-            <span>Vous êtes?</span>
         </div>
         <div class="flex-container">
+            <!--modifier form avec bootstrap-->
 
-                <form id="gauche">
-                    <h3>Particulier</h3>
-                    <div>
-                        <label for="name">Nom</label>
+            <form id="gauche">
+                <h3>Particulier</h3>
+                <div>
+                    <label for="name">Nom
                         <input type="text" id="name" name="user-name">
-                    </div>
-                    <div>
-                        <label for="name">Prénom</label>
-                        <input type="text" id="name" name="user-name">
-                    </div>
-                    <div>
-                        <label for="mail">Adresse mail</label>
+                    </label>
+                </div>
+                <div>
+                    <label for="name">Prénom
+                        <input type="text" id="prenom" name="user-name">
+                    </label>
+                </div>
+                <div>
+                    <label for="mail">Adresse mail
                         <input type="email" id="email" name="user-mail">
-                    </div>
-                    <div>
-                        <label for="portable">Portable</label>
+                    </label>
+                </div>
+                <div>
+                    <label for="portable">Portable
                         <input type="number" id="portable" name="user-portable">
-                    </div>
-                    <div>
-                        <button type="submit" name="user-submit">Recevoir infos</button>
-                    </div>
-                </form>
-                <form id="droite">
-                    <h3>Commerçants</h3>
-                    <div>
-                        <label for="name">Nom</label>
-                        <input type="text" id="name" name="user-name">
-                    </div>
-                    <div>
-                        <label for="name2">Prénom</label>
+                    </label>
+                </div>
+                <div>
+                    <button type="submit" name="user-submit">Recevoir infos</button>
+                </div>
+            </form>
+            <form id="droite">
+                <h3>Commerçants</h3>
+                <div>
+                    <label for="name">Nom
                         <input type="text" id="name2" name="user-name">
-                    </div>
-                    <div>
-                        <label for="mail">Adresse mail</label>
+                    </label>
+                </div>
+                <div>
+                    <label for="name2">Prénom
+                        <input type="text" id="prenom2" name="user-name">
+                    </label>
+                </div>
+                <div>
+                    <label for="mail">Adresse mail
                         <input type="email" id="mail" name="user-mail">
-                    </div>
-                    <div>
-                        <label for="portable">Portable</label>
-                        <input type="number" id="portable" name="user-portable">
-                    </div>
-                    <div>
-                        <button id="button1" type="submit" name="user-submit">Inscription</button>
-                     </div>
-                </form>
+                    </label>
+                </div>
+                <div>
+                    <label for="portable">Portable
+                        <input type="number" id="portable2" name="user-portable">
+                    </label>
+                </div>
+                <div>
+                    <button id="button1" type="submit" name="user-submit">Inscription</button>
+                 </div>
+            </form>
         </div>
+        <!--mon footer-->
+        <div id="footer">
+            <div id="frise">
+                <img id="fond" src="img/fond.svg">
+                <div class="footer2">
 
-        <div id="cont-flex">
-                <div>
-                    <span>Retrait sur rendez-vous</span>
-                    <i class="fas fa-shopping-cart"></i>
-                </div>
-                <div>
-                    <span>Magasin ouvert</span>
-                    <i class="fas fa-store"></i>
-                </div>
-                <div>
-                    <span>Livraison à domicile</span>
-                    <i class="fas fa-truck"></i>
-                </div>
+                    <div>
+                        <span>Retrait sur rendez-vous</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div>
+                        <span>Magasin ouvert</span>
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div>
+                        <span>Livraison à domicile</span>
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div>
+                        <img class="img" src="img/Face.png">
+                    </div>
+                    <div>
+                        <img class="img" src="img/UPTO.png">
+                    </div>
+                    <div>
+                        <img class="img" src="img/fourmies.png">
+                    </div>
+                 </div>
+            </div>
         </div>
     </div>
 </body>
