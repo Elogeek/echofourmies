@@ -116,7 +116,7 @@ i {
     top: 6rem;
     background-color: #f0f0f0;
     width: 100%;
-    height:4rem;
+    height: 6rem;
     color: #525252;
     padding-left: 1%;
 }
@@ -175,4 +175,11 @@ i {
        display:none
     }
 
+}
+
+/*height caroussel*/
+.carousel {
+    width: 70%;
+    z-index: -1000;
+    bottom: -5rem;
 }
