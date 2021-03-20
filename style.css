@@ -35,7 +35,7 @@ body {
     text-align: center;
 }
 
-#gauche {
+/*#gauche {
     background-color: #f58220;
 
 }
@@ -43,7 +43,7 @@ body {
 #droite {
     background-color: #008e97;
 
-}
+}*/
 
 button {
     padding: 12px;
@@ -71,6 +71,7 @@ footer {
     box-sizing: inherit;
     height: 30%;
 }
+
 .footer2 {
     display: flex;
     flex-flow: row wrap;
@@ -178,8 +179,17 @@ i {
 }
 
 /*height caroussel*/
-.carousel {
-    width: 70%;
-    z-index: -1000;
-    bottom: -5rem;
+.splide__track {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
 }
+
+#splide {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
