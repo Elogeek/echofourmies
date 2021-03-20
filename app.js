@@ -1,7 +1,7 @@
+ new Splide('#splide',  {
+     type  : 'fade',
+     rewind: true,
+    } ).mount();
 
-new Splide( '#splide',{
-    direction: 'ttb',
-    height   : '10rem',
-} ).mount();
 
 

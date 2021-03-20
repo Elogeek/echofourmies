@@ -22,28 +22,36 @@ body {
 }
 
 .flex-container {
-    width:36rem;
+    width:40rem;
     height: 10rem;
-    padding-right: 3rem;
+    padding-right: 9rem;
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
-.flex-container > div {
+#gauche > div, #droite > div {
     text-align: center;
 }
 
-/*#gauche {
-    background-color: #f58220;
+#gauche, #droite {
+    margin-top : -8rem;
+    width: 15rem;
+    height: 10rem;
+    padding: 9px;
+    background-color: #525252;
+}
+
+#gauche {
+    color: #f58220;
 
 }
 
 #droite {
-    background-color: #008e97;
+   color: #008e97;
 
-}*/
+}
 
 button {
     padding: 12px;
@@ -60,6 +68,8 @@ button {
 
 button {
     color:#f58220;
+    background-color: #f0f0f0;
+    padding-top: 3px;
 }
 
 button:hover {
@@ -120,6 +130,7 @@ i {
     height: 6rem;
     color: #525252;
     padding-left: 1%;
+    margin-top: 48px;
 }
 
 #logo {
@@ -178,18 +189,21 @@ i {
 
 }
 
-/*height caroussel*/
-.splide__track {
-    position: relative;
-    z-index: 0;
-    overflow: hidden;
-}
-
+/*caroussel*/
 #splide {
-    position: relative;
-    width: 1200px;
-    margin: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 15rem;
+    margin-left: 18rem;
+    width: 50%;
 }
 
+.splide__arrows  button {
+    margin-top: 7.5rem;
+    justify-items: baseline;
+}
+
+.splide__pagination {
+    margin-bottom: 0;
+}
